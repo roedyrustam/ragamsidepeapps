@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.UploadProfilePhotoActivity"
+    android:background="@color/colorBG2">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_upload_profile_photo"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_margin="36dp"
+        android:background="@color/colorWhite"
+        app:cardCornerRadius="115dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/iv_upload_profile_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/btn_upload_profile_photo"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/txt_change_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:theme="@style/Button.Primary"
+        app:layout_constraintTop_toBottomOf="@+id/cv_upload_profile_photo" />
+
+    <!-- We need this loading wheel, only when loading more -->
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/upload_profile_progress_wheel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="MissingConstraints"
+        wheel:matProg_barColor="@color/colorPrimaryDark"
+        wheel:matProg_progressIndeterminate="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,105 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.7'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    defaultConfig {
+        applicationId "com.sidepe.multicontent"
+        minSdkVersion 17
+        targetSdkVersion 30
+        versionCode 14
+        versionName "4.3.7"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                onesignal_app_id               : '2d3f2f42-b860-4fd2-a512-65d7e1975f19',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //Volley
+    implementation 'com.android.volley:volley:1.1.1'
+    //Custom Font
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    //RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    //Glid Image --> https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+    //If you want to use the GPU Filters
+    implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    //Slider
+    implementation 'com.squareup.picasso:picasso:2.5.2' //Don't update this library
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //Material Progress --> https://github.com/pnikosis/materialish-progress
+    implementation 'com.pnikosis:materialish-progress:1.7'
+    //Google AdMob
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    //Firebase
+    implementation 'com.google.firebase:firebase-core:18.0.0'
+    implementation "com.google.firebase:firebase-ads:19.8.0"
+    implementation "com.google.firebase:firebase-analytics:18.0.2"
+    implementation "com.google.firebase:firebase-messaging:21.0.1"
+    //OneSignal
+    implementation 'com.onesignal:OneSignal:3.15.0'
+    //Fab Menu
+    implementation 'net.i2p.android.ext:floatingactionbutton:1.10.1'
+    //SliderLib: https://github.com/daimajia/AndroidImageSlider
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    //ExoPlayer Player: https://exoplayer.dev/hello-world.html
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.0'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.11.0'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.11.0'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.11.0'
+    implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.0'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.11.0'
+    //JiaoZiVideoPlayer: https://github.com/Jzvd/JiaoZiVideoPlayer Good Version: 6.4.3
+    implementation 'cn.jzvd:jiaozivideoplayer:7.2.0'
+    //YouTubeAndroidPlayer: https://www.sitepoint.com/using-the-youtube-api-to-embed-video-in-an-android-app/
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+}
+apply plugin: 'com.google.gms.google-services'

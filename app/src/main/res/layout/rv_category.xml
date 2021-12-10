@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/singleRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:id="@+id/categoryImage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/pre_loading" />
+
+        <TextView
+            android:id="@+id/categoryTitle"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/categoryImage"
+            android:layout_toRightOf="@+id/categoryImage"
+            android:maxLines="1"
+            android:text="Category Title"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/txt_xxlarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/categoryId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            app:srcCompat="@drawable/icon_arrow_right_gray" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/singleRow"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f2f2f2" />
+
+</RelativeLayout>

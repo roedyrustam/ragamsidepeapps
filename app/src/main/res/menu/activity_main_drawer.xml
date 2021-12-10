@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home_black_24"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/icon_category_black_24"
+            android:visible="false"
+            android:title="@string/nav_category" />
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/icon_bookmark_black_24"
+            android:title="@string/nav_bookmark" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/icon_help_black_24"
+            android:title="@string/nav_reward_coin" />
+        <item
+            android:id="@+id/nav_account_upgrade"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="@string/nav_account_upgrade" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/icon_contact_black_24"
+            android:title="@string/nav_contact" />
+        <item
+            android:id="@+id/nav_about_app"
+            android:icon="@drawable/icon_app_information_black_24"
+            android:title="@string/nav_about_app" />
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/icon_share_black_24"
+            android:title="@string/nav_share_app" />
+    </group>
+
+    <item android:title="@string/nav_txt_others"
+        android:id="@+id/nav_user_account"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/icon_lock_black_24"
+                android:title="@string/nav_login" />
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/icon_person_add_black_24"
+                android:title="@string/nav_register" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/icon_account_circle_black_24"
+                android:title="@string/nav_my_profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icon_exit_to_app_black_24"
+                android:title="@string/nav_exit" />
+        </menu>
+    </item>
+
+</menu>
+

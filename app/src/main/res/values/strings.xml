@@ -1,0 +1,260 @@
+<resources>
+
+    <!-- Main String -->
+    <string name="app_name">Ragam</string>
+    <string name="app_sub_name">Viral Content</string>
+
+    <!-- Intro splash string -->
+    <string name="screen1_title">Multi Viral Content</string>
+    <string name="screen1_desc">Welcome to RAGAM</string>
+    <string name="screen2_title">Various content</string>
+    <string name="screen2_desc">You can play so much</string>
+    <string name="screen3_title">Online Videos</string>
+    <string name="screen3_desc">Streaming online video and audio</string>
+    <string name="screen4_title">Search</string>
+    <string name="screen4_desc">You can search your favorite content</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">OK!</string>
+
+    <!-- Login/SignIn string -->
+    <string name="txt_login_username">Username</string>
+    <string name="txt_login_password">Password</string>
+    <string name="txt_register_referral">Referral ID</string>
+    <string name="txt_register_referral_help">If you have referral id, write here to Reward Coin!</string>
+    <string name="txt_register_referral_not_exist">This referral id not found.</string>
+    <string name="txt_forgot_password">Forgot my password!</string>
+    <string name="txt_btn_login">Login</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_login">User Login</string>
+    <string name="txt_btn_register">Register</string>
+    <string name="txt_register_firstname">Name</string>
+    <string name="txt_register_lastname">Family</string>
+    <string name="txt_register_email">Email</string>
+    <string name="txt_empty_fullname">Please enter name and family.</string>
+    <string name="txt_empty_mobile">Please enter your username.</string>
+    <string name="txt_empty_email">Please enter your email.</string>
+    <string name="txt_empty_password">Please enter you password.</string>
+    <string name="txt_fullname_length_error">Minimum 3 characters.</string>
+    <string name="txt_firstname_length_error">First name minimum 3 characters.</string>
+    <string name="txt_lastame_length_error">Last name minimum 3 characters.</string>
+    <string name="txt_mobile_length_error">Username minimum 5 characters.</string>
+    <string name="txt_empty_username">Your username is not valid.</string>
+    <string name="txt_email_length_error">Email minimum 8 characters.</string>
+    <string name="txt_email_not_valid">Your email format is not correct \nExample:
+    YourName@Gmail.com</string>
+    <string name="txt_password_length_error">Password minimum 6 characters.</string>
+    <string name="txt_register_success">Success Registration. Please Login!</string>
+    <string name="txt_mobile_is_exist">This username is exist!</string>
+    <string name="txt_email_is_exist">This email is exist!</string>
+    <string name="txt_success_login">You login successfully!</string>
+    <string name="txt_failed_login">Username or Password is incorrect</string>
+    <string name="txt_logout_successfully">Logout!</string>
+    <string name="txt_please_login_first">Please login to your account.</string>
+    <string name="txt_bookmark_login">Login</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_category">Kategori</string>
+    <string name="nav_bookmark">Tanda</string>
+    <string name="nav_about_app">About App</string>
+    <string name="nav_reward_coin">Bonus Koin</string>
+    <string name="nav_account_upgrade">Account Upgrade</string>
+    <string name="nav_contact">Contact Us</string>
+    <string name="nav_share_app">Share</string>
+    <string name="nav_txt_others">Account</string>
+    <string name="nav_login">User Login</string>
+    <string name="nav_register">Register New User</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_update_my_profile">Update My Profile</string>
+    <string name="nav_exit">Logout</string>
+
+    <string name="txt_ways_to_contact_us">Ways to contact us</string>
+
+    <!-- Option Menu -->
+
+    <!-- Option Menu -->
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Setting</string>
+    <string name="menu_back">Back</string>
+
+    <!-- Common String -->
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_confirm_leave_page">Do you want to leave this page?</string>
+    <string name="txt_exit">Exit</string>
+    <string name="txt_loading">In Progress...</string>
+    <string name="txt_error">Error !!!</string>
+    <string name="txt_no_internet">No Internet Connection!</string>
+    <string name="txt_retry">Try again</string>
+    <string name="txt_no_result">Nothing Found!</string>
+    <string name="txt_no_slider_found">No Slider Found!</string>
+    <string name="txt_no_more_result">Nothing More found!</string>
+    <string name="txt_items_list">Content List</string>
+    <string name="txt_show_content">Show</string>
+
+    <string name="txt_featured_title">Featured</string>
+    <string name="txt_best_rated_title">Best Rated</string>
+    <string name="txt_latest_title">Latest</string>
+    <string name="txt_special_title">Special</string>
+
+    <string name="txt_search_keyword">keywords...</string>
+    <string name="txt_btn_search">Search</string>
+    <string name="txt_please_enter_keyword">Please enter keywords!</string>
+    <string name="txt_enter_keyword">Enter Keywords</string>
+    <string name="txt_keyword_too_short">Minimum 3 characters!</string>
+
+    <string name="txt_share">Dapatkan Konten Menarik lainnya di:\n
+        https://play.google.com/store/apps/details?id=%1$s</string>
+
+    <!-- About app information -->
+    <string name="about_app_name">App Name</string>
+    <string name="about_app_version">Version</string>
+    <string name="about_app_email">Email</string>
+    <string name="about_app_copyright">Copyright</string>
+    <string name="about_us">About</string>
+    <string name="sub_about_us">About Us</string>
+    <string name="about_app_terms">Terms</string>
+    <string name="sub_about_app_terms">Terms of service</string>
+    <string name="about_app_privacy_policy">Privacy Policy</string>
+    <string name="sub_about_app_privacy_policy">Privacy Policy</string>
+    <string name="about_app_gdpr_law">GDPR Law</string>
+    <string name="sub_about_app_gdpr_law">GDPR Law Content</string>
+    <string name="sub_about_app_version">Version:</string>
+    <string name="about_app_website">Website</string>
+    <string name="sub_about_app_copyright">All Rights Reserved.
+    &#169; 2020
+    </string>
+    <string name="sub_about_app">Welcome to Video Channel</string>
+    <string name="about_app_developer">Design and Develop</string>
+    <string name="sub_about_app_developer">Pandu Multi Talenta</string>
+    <string name="about_app_help">Reward Coin</string>
+    <string name="sub_about_app_help">How to reward coin</string>
+    <string name="title_activity_one_content">Show one content</string>
+    <string name="title_activity_login">User Login</string>
+    <string name="title_activity_register">Register</string>
+
+    <string name="txt_get_update">Download new version</string>
+    <string name="txt_check_update_title">Update</string>
+    <string name="txt_check_update_msg">New update is available. Please update!</string>
+    <string name="txt_update_url">https://play.google.com/store/apps/details?id=%1$s</string>
+
+    <string name="txt_maintenance_title">Maintenance Mode</string>
+
+    <string name="txt_my_profile">My Profile</string>
+    <string name="txt_currency">$</string>
+    <string name="txt_currency_suffix">USD</string>
+
+    <string name="txt_whoops">Whoops!</string>
+    <string name="txt_no_network_connection_found">No network connection found.</string>
+    <string name="txt_try_again">Try Again</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_this_function_is_not_support_here">This function is not support here.</string>
+
+    <string name="txt_advertising">Advertising</string>
+    <string name="txt_button_open">Open</string>
+    <string name="txt_button_open_pdf">Open PDF</string>
+    <string name="txt_button_show">Show on the web</string>
+    <string name="txt_button_play_video">Play Video</string>
+    <string name="txt_button_play_music">Play Music</string>
+    <string name="txt_button_play_game">Play Game</string>
+    <string name="txt_button_download">Download</string>
+    <string name="txt_add_comment">Write a review</string>
+    <string name="txt_show_comment">Show reviews</string>
+    <string name="txt_add_bookmark">Add to bookmarks</string>
+    <string name="txt_remove_bookmark">Remove from bookmarks</string>
+    <string name="txt_share_this_content">Share this content</string>
+    <string name="txt_write_your_comment">Write your review (optional)</string>
+    <string name="txt_please_select_your_rating">Please select your rating!</string>
+    <string name="txt_your_comment_sent_successfully">Your review sent successfully.</string>
+    <string name="txt_if_you_filling_the_comment_please_wait">If you filling the review field, please wait for approval by the app moderator.</string>
+    <string name="txt_ratings_and_comments">Ratings &amp; Reviews</string>
+    <string name="txt_rate_average">0.0</string>
+    <string name="txt_total_rate">0</string>
+    <string name="txt_you_sent_review_recently">Error: You sent a review recently.</string>
+
+    <string name="txt_how_to_reward_coin">How to get Bonus coin?</string>
+    <string name="txt_access_permission">Access Permission</string>
+    <string name="txt_this_content_is_for_vip_user_role">This content is for VIP User. Please upgrade your role to access all content.</string>
+    <string name="txt_upgrade_role">Role Upgrade</string>
+    <string name="txt_about_application">About Application</string>
+
+    <string name="txt_account_upgrade">Upgrade Account</string>
+    <string name="txt_hide_banner_ads">Hide Banner Ads</string>
+    <string name="txt_hide_interstitial_ads">Hide Interstitial Ads</string>
+    <string name="txt_upgrade_user_role_to_vip">Upgrade User Role To VIP</string>
+    <string name="txt_requires_1000_coins">Requires 1000 coins.</string>
+    <string name="txt_requires_2000_coins">Requires 2000 coins.</string>
+    <string name="txt_please_select_an_option">Please select an option</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_vip_user_capabilities_description">* VIP user has access to all content.\n* VIP user can publish new content.</string>
+    <string name="txt_not_enough_coin">You don\'t have enough coins</string>
+    <string name="txt_banner_ads_has_been_hidden">Banner ads has been hidden</string>
+    <string name="txt_banner_ads_has_been_hidden_description">Banner ads has been hidden. Please close the application once and open it again to make changes.</string>
+    <string name="txt_interstitial_ads_has_been_hidden">Interstitial ads has been hidden</string>
+    <string name="txt_interstitial_ads_has_been_hidden_description">Interstitial ads has been hidden. Please close the application once and open it again to make changes.</string>
+    <string name="txt_your_account_has_changed_to_vip">Your account has changed to VIP</string>
+    <string name="txt_your_account_has_changed_to_vip_description">Your account has changed to VIP. Please close the application once and open it again to make changes.</string>
+    <string name="txt_your_balance">Your balance:</string>
+    <string name="txt_coins">Coin</string>
+    <string name="txt_users">User(s)</string>
+    <string name="txt_update_my_profile_and_image">Update my profile and image</string>
+    <string name="txt_update_profile">Update Profile</string>
+    <string name="txt_account_upgrade_hide_ads">Account upgrade and hide ads</string>
+    <string name="txt_referral_user_to_join_us">Referral user to join us</string>
+    <string name="txt_referral_user">Referral User</string>
+    <string name="txt_your_referral_id_is">Your Referral ID is:</string>
+    <string name="txt_give_your_friends_the_above">Give your friends the above Referral ID to reward coin for both.</string>
+    <string name="txt_give_your_friends_the_above_no_reward">Give your friends the above Referral ID to join us.</string>
+    <string name="txt_all_the_users_that_you_are_referring_to">All the users that you are referring to.</string>
+    <string name="txt_your_user_role_is">Your user role is</string>
+    <string name="txt_your_coins">Your coins.</string>
+    <string name="txt_requires_coins">Requires coins:</string>
+    <string name="txt_your_account_has_been_blocked_please_contact_administrator">Your account has been blocked. Please contact administrator.</string>
+
+    <string name="txt_withdrawal_coin">Withdrawal Coin</string>
+    <string name="txt_withdrawal_coin_as_a_cash">Withdrawal coin as a cash</string>
+    <string name="txt_withdrawal_account_name">Your Account or Wallet</string>
+    <string name="txt_withdrawal_user_comment">Description (optional)</string>
+    <string name="txt_withdrawal_account_type">Account Type</string>
+    <string name="txt_withdrawal_account_name_is_empty">Account name is empty!</string>
+    <string name="txt_withdrawal_request_sent_successfully">Withdrawal request sent successfully</string>
+    <string name="txt_withdrawal_request_sent_successfully_please_wait">Withdrawal request sent successfully. Please wait for several days to process your request.\nYou can check the status of your request from our Web Version of your account.</string>
+    <string name="txt_you_have_not_enough_coin_to_withdrawal">You have not enough coin to withdrawal.</string>
+    <string name="txt_minimum_coin_required">Minimum coin required:</string>
+    <string name="txt_sending">Sending...</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_delete_account">Delete Account</string>
+    <string name="txt_delete_my_account">Delete my account</string>
+    <string name="txt_deleting_your_account_will_delete_all_your_data">Deleting your account will delete all your data from our server and will not be restored.</string>
+    <string name="txt_are_sure_you_want_to_delete">Are you sure? You want to DELETE your account?</string>
+    <string name="txt_confirm_deletion">Confirm Deletion</string>
+    <string name="txt_yes_delete">Delete Account</string>
+    <string name="txt_your_account_has_been_deleted_successfully">Your account has been deleted successfully.</string>
+    <string name="txt_please_wait">Please Wait...</string>
+    <!--<string-array name="txt_withdrawal_account_type_array">
+        <item>PayPal</item>
+        <item>Bitcoin</item>
+    </string-array>-->
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="txt_location_on_the_map">Peta Lokasi Objek</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_location_is_not_set">Location is not set.</string>
+    <string name="txt_call_function_is_not_available_on_your_phone">Call function is not available on your phone</string>
+    <string name="txt_the_url_is_incorrect">The URL is incorrect</string>
+    <string name="txt_fill_this_filed_if_you_want_to_change_your_password">Fill this filed, if you want to change your password.</string>
+    <string name="txt_update_profile_success">Your profile has been updated successfully</string>
+    <string name="txt_read_and_write_external_request_is_not_granted">Read and Write external request is not granted.</string>
+    <string name="txt_change_photo">Change Photo</string>
+    <string name="txt_please_select_an_image">Please select an image</string>
+    <string name="txt_your_profile_photo_has_been_changed_successfully">Your profile photo has been changed successfully</string>
+    <string name="txt_upload_new_photo">Upload New Photo</string>
+    <string name="txt_share_content">Share Content</string>
+    <string name="txt_i_like_to_share_this_with_you">Hi,\nI\'d like to share this with you:\n\n</string>
+
+</resources>
